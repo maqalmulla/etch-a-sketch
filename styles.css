@@ -1,0 +1,26 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container, .row, .column{
+    display: flex;
+}
+
+.container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    border: 2px solid black;
+    height: 55px;
+    width: 55px;
+}
+
+.hovering{
+    background-color: rgb(230, 227, 161);
+    height: 60px;
+    width: 60px;
+}
